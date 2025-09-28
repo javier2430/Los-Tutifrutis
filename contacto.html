@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Contacto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <!-- Página de contacto - solo HTML -->
+  <header>
+    <h1>Contacto</h1>
+    <p>Si tienes preguntas, sugerencias o quieres trabajar con nosotros, escríbenos usando el formulario.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="form-title">
+      <h2 id="form-title">Envíanos un mensaje</h2>
+
+      <!-- Formulario: action vacío para que no requiera servidor; puedes poner tu URL en action -->
+      <form action="" method="post" accept-charset="utf-8" aria-describedby="form-desc">
+        <p id="form-desc">Rellena los campos obligatorios (*) y pulsa "Enviar".</p>
+
+        <fieldset>
+          <legend>Información personal</legend>
+
+          <label for="nombre">Nombre completo *</label><br>
+          <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required maxlength="100" autocomplete="name">
+          <br><br>
+          <label for="email">Correo electrónico *</label><br>
+          <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com" required autocomplete="email">
+          <br><br>
+         <label for="telefono">Teléfono</label><br>
+          <input id="telefono" name="telefono" type="tel" placeholder="+1 809 555 1234" pattern="[0-9+\-\s]{6,20}" maxlength="20" autocomplete="tel">
+        </fieldset>
+        Pasaporte o Cedula*</label><br>
+          <input id="email" name="email" type="email" placeholder="Pasaporte o Cedula" required autocomplete="email">
+          <br><br>
+    
+
+
+        <br>
+
+        <fieldset>
+          <legend>Mensaje</legend>
+
+          <label for="asunto">Asunto *</label><br>
+          <input id="asunto" name="asunto" type="text" placeholder="Breve resumen" required maxlength="120">
+          <br><br>
+
+          <label for="mensaje">Mensaje *</label><br>
+          <textarea id="mensaje" name="mensaje" rows="8" cols="50" placeholder="Escribe tu mensaje aquí..." required maxlength="3000"></textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+          <legend>Preferencias</legend>
+
+          <input id="suscribir" name="suscribir" type="checkbox" value="si">
+          <label for="suscribir">Deseo recibir novedades por correo</label>
+          <br><br>
+
+          <label for="contacto-por">¿Prefieres ser contactado por?</label><br>
+          <select id="contacto-por" name="contacto_por" aria-label="Método preferido de contacto">
+            <option value="email">Correo electrónico</option>
+            <option value="telefono">Teléfono</option>
+          </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Botones -->
+        <p>
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </p>
+
+        <!-- Información de accesibilidad / privacidad -->
+        <p aria-live="polite">
+          <small>Nota: no compartiremos tu información. Si quieres que borremos tus datos, indícalo en el mensaje.</small>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <!-- año dinámico no permitido sin JS --> 2025 - Compañia Araujo</p>
+  </footer>
+</body>
+</html>
+
+
+    <h1>soy Pedro</h1>
+ <a href="index.html">gaby</a>
+ <a href="caracteristica.html">dilan</a>
+</body>
+</html>
+<h4>809-702-5116</h4>
